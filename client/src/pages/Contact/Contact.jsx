@@ -25,16 +25,24 @@ function Contact() {
   //   alert(result.status);
     
   // };
+  const [success, setSuccess] = useState(false);
+
+  useEffect(() => {
+    if ( window.location.search.includes('success=true') ) {
+      setSuccess(true);
+    }
+  }, []);
 
   return (
     <div className='contact'>
       <div className='contact__left'>
-        <form name='contactForm' className='contact__form' method='POST' data-netlify='true' >
+        <form name='contact' className='contact__form' method='POST' action="/contact/?success=true" data-netlify='true' >
           <div className='contact__container'>
+          <input type="hidden" name="form-name" value="contact" />
             <input className='contact__input' type='text' name='name' placeholder={`What's your name?`} required></input>
             <input className='contact__input' type='email' name='email' placeholder='Email?' required></input>
             <textarea className='contact__details' type='text' name='message' placeholder='Details...' required></textarea>
-            <button className='contact__button'>Let's do it!</button>
+            <button className='contact__button' name='submit'>Let's do it!</button>
           </div>
         </form>
       </div>
