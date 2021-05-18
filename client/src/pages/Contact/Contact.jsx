@@ -29,11 +29,12 @@ function Contact() {
   return (
     <div className='contact'>
       <div className='contact__left'>
-        <form name='contactForm' className='contact__form' methods='POST' data-netlify="true" >
+        <form name='contactForm' className='contact__form' action='POST' data-netlify="true" >
           <div className='contact__container'>
             <input className='contact__input' type='text' name='name' placeholder={`What's your name?`} required></input>
             <input className='contact__input' type='email' name='email' placeholder='Email?' required></input>
             <textarea className='contact__details' type='text' name='message' placeholder='Details...' required></textarea>
+            <div data-netlify-recaptcha='true'></div>
             <button className='contact__button'>Let's do it!</button>
           </div>
         </form>
