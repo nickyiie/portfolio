@@ -29,7 +29,7 @@ function Contact() {
   return (
     <div className='contact'>
       <div className='contact__left'>
-        <form className='contact__form' methods='POST' data-netlify="true" >
+        <form name='contactForm' className='contact__form' methods='POST' data-netlify="true" >
           <div className='contact__container'>
             <input className='contact__input' type='text' name='name' placeholder={`What's your name?`} required></input>
             <input className='contact__input' type='email' name='email' placeholder='Email?' required></input>
