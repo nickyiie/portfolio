@@ -67,7 +67,7 @@ const toggleFour = () => {
           <h1>Bandsite</h1>
           <BsArrowRight className='pro__arrow'/>
         </a>
-        <h2 className='pro__description'>A showcase website, displaying a band's biography, latest concert photo gallery, as well as upcoming show's ticket sales.</h2>
+        <h2 className='pro__description'>Fully responsive showcase site, displaying a band's biography, latest concert photo gallery, as well as upcoming show's ticket sales and music player.</h2>
         <p className='pro__technology'> HTML5, CSS3, SASS, JAVASCRIPT, AXIOS</p>
       </div> 
         : null}
@@ -77,7 +77,7 @@ const toggleFour = () => {
           <h1>Brainflix</h1>
           <BsArrowRight className='pro__arrow'/>
         </a>
-        <h2 className='pro__description'>A video streaming service, complete with a view counter, comment section, and seperate uploading page. </h2>
+        <h2 className='pro__description'>Fully responsive video streaming service, complete with a view counter, comment section, and seperate uploading page. </h2>
         <p className='pro__technology'> HTML5, CSS3, SASS, JAVASCRIPT, REACT.JS, NODE.JS, EXPRESS, AXIOS</p>
       </div> 
         : null}
