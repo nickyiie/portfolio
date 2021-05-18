@@ -27,10 +27,11 @@
     <title>Nicteha Pinkus</title>
   </head>
   <body>
-    <form name="contact" netlify netlify-honeypot="bot-field" action='/' hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
-      <textarea name="message"></textarea>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>  
+      <input className='contact__input' type='text' name='name' placeholder='What is your name?' required></input>
+      <input className='contact__input' type='email' name='email' placeholder='Email?' required></input>
+      <textarea className='contact__details' type='text' name='message' placeholder='Details...' required></textarea>
+      <button className='contact__button' type='submit'>Let's do it!</button>
     </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
