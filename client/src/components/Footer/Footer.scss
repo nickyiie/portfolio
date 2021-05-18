@@ -1,0 +1,19 @@
+@import '../../partials/variables';
+@import '../../partials/global';
+
+.foot {
+  padding-left:2%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  &__link {
+    font-size: 2rem;
+    margin-right: 2.5%;
+    color: $primary-color-1;
+
+    &:hover {
+      color: $secondary-color-2;
+    }
+  }
+}

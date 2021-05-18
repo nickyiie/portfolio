@@ -1,0 +1,33 @@
+
+@keyframes slide {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(10px, 0);
+  }
+}
+
+@keyframes appear {
+  0%  {opacity: 0;}
+  25% {opacity: 0;}
+  50% {opacity: .25;}
+  60% {opacity: .5;}
+  75% {opacity: .75;}
+  100%{opacity: 1;}
+}
+
+@keyframes slide {
+	0% {left: 0;}
+	60% {left: 50px;}
+	100% { left: 150px; }
+}
+
+@keyframes slide-right {
+	0% {right: 0;}
+	60% {right: 50px;}
+	100% { right: 155px; }
+}
+

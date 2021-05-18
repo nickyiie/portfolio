@@ -1,0 +1,42 @@
+@import '../../partials/variables';
+@import '../../partials/global';
+
+.nav {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  padding-top: 1.5rem;
+
+  &__left {
+    width: 40%;
+    padding-left: 2rem;
+  }
+
+  &__right {
+    width: 60%;
+    text-align: center;
+    padding-left: 28rem;
+
+  }
+
+  &__link {
+    font-size: 1.15rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: $secondary-color-1;
+    border-bottom: 3px solid $secondary-color-2 .01;
+
+    &:hover {
+      border-bottom: 3px solid $secondary-color-2;
+    }
+  }
+
+  &__title{
+    color: $primary-color-1;
+    font-size: 1.5rem;
+  }
+}
+
+.hidden {
+  visibility: hidden;
+}

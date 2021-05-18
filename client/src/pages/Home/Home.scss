@@ -1,0 +1,54 @@
+@import '../../partials/variables';
+@import '../../partials/animations';
+@import '../../partials/global';
+
+.home {
+  display: flex;
+
+  &__left {
+    display: flex;
+    align-items: center;
+    padding: 0 12rem;
+    background-color: $secondary-color-1;
+    width: 70%;
+    height: 100vh;
+    color: $secondary-color-2;
+    font-size: 3rem;
+  }
+
+  &__title {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+  }
+
+  &__fname {
+    position: relative;
+    left: 150px;
+    animation: slide 3s ease-in-out;
+  }
+
+  &__lname {
+    align-self: flex-end;
+    position: relative;
+    right: 155px;
+    animation: slide-right 3s ease-in-out;
+
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.25rem;
+    padding: 0 6.5rem;
+    background-color: $primary-color-1;
+    width: 30%;
+    height: 100vh;
+  }
+
+  &__position, &__location {
+    animation: appear 3s ease-in;
+  }
+}
