@@ -51,11 +51,12 @@
   &__arrow {
     margin-left: 1rem;
     font-size: larger;
-    animation: slide 1s ease-in-out infinite;
+    animation: slide 1s ease-in infinite;
   }
 
   &__description {
+    font-size: 1.5rem;
     margin: .5rem 0;
-    font-weight: 400;
+    font-weight: 600;
   }
 }

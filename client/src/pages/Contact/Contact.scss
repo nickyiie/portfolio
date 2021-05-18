@@ -31,9 +31,15 @@
     height: 3rem;
     padding: 1rem;
     border-radius: 50px;
+    font-family: 'Ubuntu', sans-serif;
+
 
     &:focus {
       outline: none;
+    }
+
+    &::placeholder {
+      font-family: 'Ubuntu', sans-serif;
     }
   }
 
@@ -44,9 +50,12 @@
     margin: .5rem 0 1rem 0;
     border-radius: 20px;
     padding: 2rem 1rem;
-
     &:focus {
       outline: none;
+    }
+
+    &::placeholder {
+      font-family: 'Ubuntu', sans-serif;
     }
   }
 
@@ -76,5 +85,6 @@
     font-size: 5rem; 
     text-align: center;
     color: $secondary-color-1;
+    animation: appear 3s ease-in;
   }
 }

@@ -57,7 +57,7 @@ const toggleFour = () => {
           <h1 className='pro__title'>
             Projects
           </h1>
-          <h2 className='pro__description'>A variety of my latest works. </h2>
+          <p className='pro__description'>A variety of my latest works. </p>
           <p className='pro__technology'>This section is constantly being updated so make sure to come back soon!</p>
         </div> 
         : null}
@@ -67,7 +67,7 @@ const toggleFour = () => {
           <h1>Bandsite</h1>
           <BsArrowRight className='pro__arrow'/>
         </a>
-        <h2 className='pro__description'>Fully responsive showcase site, displaying a band's biography, latest concert photo gallery, as well as upcoming show's ticket sales and music player.</h2>
+        <p className='pro__description'>Fully responsive showcase site, displaying a band's biography, latest concert photo gallery, as well as upcoming show's ticket sales and music player.</p>
         <p className='pro__technology'> HTML5, CSS3, SASS, JAVASCRIPT, AXIOS</p>
       </div> 
         : null}
@@ -77,7 +77,7 @@ const toggleFour = () => {
           <h1>Brainflix</h1>
           <BsArrowRight className='pro__arrow'/>
         </a>
-        <h2 className='pro__description'>Fully responsive video streaming service, complete with a view counter, comment section, and seperate uploading page. </h2>
+        <p className='pro__description'>Fully responsive video streaming service, complete with a view counter, comment section, and seperate uploading page. </p>
         <p className='pro__technology'> HTML5, CSS3, SASS, JAVASCRIPT, REACT.JS, NODE.JS, EXPRESS, AXIOS</p>
       </div> 
         : null}
@@ -87,7 +87,7 @@ const toggleFour = () => {
           <h1>Discover</h1>
           <BsArrowRight className='pro__arrow'/>
         </a>
-        <h2 className='pro__description'>A mobile dictionary, with a text-to-voice feature meant to help you find and save that word that's right at the tip of your tongue!</h2>
+        <p className='pro__description'>A mobile dictionary, with a text-to-voice feature meant to help you find and save that word that's right at the tip of your tongue!</p>
         <p className='pro__technology'> HTML5, CSS3, SASS, JAVASCRIPT, REACT.JS, NODE.JS, EXPRESS, AXIOS</p>
       </div> 
         : null}
@@ -97,7 +97,7 @@ const toggleFour = () => {
           <h1>I'll Write</h1>
           <BsArrowRight className='pro__arrow'/>
         </a>
-        <h2 className='pro__description'>A user-based gamefied journaling app meant to keep you motivated inorder to create a habit of self-reflection.</h2>
+        <p className='pro__description'>A user-based gamefied journaling app meant to keep you motivated in order to create a habit of self-reflection.</p>
         <p className='pro__technology'> HTML5, CSS3, SASS, JAVASCRIPT, REACT.JS, NODE.JS, EXPRESS, FIREBASE AUTH, AXIOS</p>
         </div>
        : null}
